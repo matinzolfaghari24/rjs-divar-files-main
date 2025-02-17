@@ -21,7 +21,8 @@ const createPost = (formData) => {
 };
 
 const getPostList = () => api.get("post/my");
+const getAllPostList = () => api.get("");
 
 const deletePost = async (id) => await api.delete(`post/delete/${id}`);
 
-export { getProfile, createPost, getPostList, deletePost };
+export { getProfile, createPost, getPostList,getAllPostList, deletePost };

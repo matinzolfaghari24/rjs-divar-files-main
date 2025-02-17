@@ -1,8 +1,8 @@
 import { useQuery } from "@tanstack/react-query";
 import React from "react";
 import toast from "react-hot-toast";
-import DeleteModal from "src/modules/Deletemodal";
-import Loader from "src/modules/Loader";
+import DeleteModal from "components/modules/Deletemodal";
+import Loader from "components/modules/Loader";
 import { getPostList } from "src/services/user";
 import { sp } from "src/utils/number";
 import { shortenText } from "src/utils/shortText";

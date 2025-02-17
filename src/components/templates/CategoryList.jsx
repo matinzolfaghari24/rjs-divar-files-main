@@ -2,8 +2,8 @@ import { useQuery } from "@tanstack/react-query";
 import { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 // import { toast, ToastContainer } from "react-toastify";
-import DeleteModal from "src/modules/DeleteModal";
-import Loader from "src/modules/Loader";
+import DeleteModal from "components/modules/DeleteModal";
+import Loader from "components/modules/Loader";
 import { getCategory } from "src/services/admin";
 
 function CategoryList() {
